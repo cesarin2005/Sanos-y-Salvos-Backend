@@ -1,0 +1,80 @@
+========================================================
+SANOS Y SALVOS — ENLACES A REPOSITORIOS
+DSY1106 Desarrollo Fullstack III
+========================================================
+
+REPOSITORIO PRINCIPAL (Frontend)
+URL: https://github.com/cesarin2005/Sanos-y-Salvos-Frontend
+Rama de trabajo: feature/evaluacion-parcial-2
+Descripción: Interfaz web de la plataforma. Contiene el código
+fuente HTML/CSS/JS organizado en carpeta src/, el archivo
+package.json con dependencias NPM y el README con instrucciones
+de instalación y ejecución.
+
+--------------------------------------------------------
+
+REPOSITORIO PRINCIPAL (Backend)
+URL: https://github.com/cesarin2005/Sanos-y-Salvos-Backend
+Rama de trabajo: feature/evaluacion-parcial-2
+Descripción: Backend completo con arquitectura de microservicios
+en Spring Boot y Maven. Incluye README en cada componente y
+pruebas unitarias en user-service.
+
+--------------------------------------------------------
+
+COMPONENTES DEL BACKEND (dentro del repositorio backend):
+
+1. API Gateway (BFF)
+   Ruta: /SanosySalvos-Backend/SanosySalvos-Backend/api-gateway
+   Puerto: 8080
+   Descripción: Backend For Frontend. Punto de entrada único
+   para el frontend. Enruta peticiones hacia los microservicios
+   y valida tokens JWT mediante AuthFilter.
+
+2. User Service
+   Ruta: /SanosySalvos-Backend/SanosySalvos-Backend/user-service
+   Puerto: 8081
+   Descripción: Microservicio de autenticación. Gestiona registro
+   y login de usuarios con Spring Security, BCrypt y JWT.
+   Incluye pruebas unitarias para AuthService y JwtService.
+
+3. Lost Pet Service
+   Ruta: /SanosySalvos-Backend/SanosySalvos-Backend/lost-pet-service
+   Puerto: 8082
+   Descripción: Microservicio para registrar y gestionar reportes
+   de mascotas perdidas.
+
+4. Found Pet Service
+   Ruta: /SanosySalvos-Backend/SanosySalvos-Backend/found-pet-service
+   Puerto: 8083
+   Descripción: Microservicio para registrar y gestionar reportes
+   de mascotas encontradas.
+
+5. Matching Service
+   Ruta: /SanosySalvos-Backend/SanosySalvos-Backend/matching-service
+   Puerto: 8084
+   Descripción: Microservicio que cruza reportes de mascotas
+   perdidas con encontradas para detectar coincidencias.
+   Se comunica con lost-pet-service y found-pet-service via HTTP.
+
+6. Notification Service
+   Ruta: /SanosySalvos-Backend/SanosySalvos-Backend/notification-service
+   Puerto: 8086
+   Descripción: Microservicio para envío de notificaciones
+   por correo electrónico a los usuarios.
+
+========================================================
+DOCUMENTACION INCLUIDA EN EL ZIP
+========================================================
+
+- analisis-patrones-arquetipos.pdf
+  Descripción: Documento que explica los patrones de diseño
+  (Repository, DTO, Builder, Service Layer, Filter) y arquetipos
+  Maven utilizados, con justificación de cada decisión.
+
+- plan-branching.pdf
+  Descripción: Documento con la estrategia Git Flow simplificada
+  adoptada por el equipo, convenciones de nomenclatura de ramas
+  y commits, flujo de trabajo y resolución de conflictos.
+
+========================================================
