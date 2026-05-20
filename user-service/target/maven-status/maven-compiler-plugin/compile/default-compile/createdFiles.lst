@@ -1,0 +1,14 @@
+com\sanosysalvos\user\config\SecurityConfig.class
+com\sanosysalvos\user\controller\AuthController.class
+com\sanosysalvos\user\model\User.class
+com\sanosysalvos\user\dto\AuthDtos$AuthResponse.class
+com\sanosysalvos\user\dto\AuthDtos$RegisterRequest.class
+com\sanosysalvos\user\dto\AuthDtos$LoginRequest.class
+com\sanosysalvos\user\dto\AuthDtos.class
+com\sanosysalvos\user\repository\UserRepository.class
+com\sanosysalvos\user\service\AuthService.class
+com\sanosysalvos\user\security\JwtService.class
+com\sanosysalvos\user\model\User$Role.class
+com\sanosysalvos\user\dto\AuthDtos$AuthResponse$Builder.class
+com\sanosysalvos\user\UserServiceApplication.class
+com\sanosysalvos\user\model\User$Builder.class
