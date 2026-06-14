@@ -1,0 +1,6 @@
+com\sanosysalvos\lostpet\controller\LostPetController.class
+com\sanosysalvos\lostpet\LostPetServiceApplication.class
+com\sanosysalvos\lostpet\service\LostPetService.class
+com\sanosysalvos\lostpet\model\LostPet$Status.class
+com\sanosysalvos\lostpet\repository\LostPetRepository.class
+com\sanosysalvos\lostpet\model\LostPet.class

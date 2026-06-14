@@ -1,0 +1,4 @@
+com\sanosysalvos\notification\controller\NotificationController.class
+com\sanosysalvos\notification\NotificationServiceApplication.class
+com\sanosysalvos\notification\service\EmailService.class
+com\sanosysalvos\notification\service\NotificationRequest.class

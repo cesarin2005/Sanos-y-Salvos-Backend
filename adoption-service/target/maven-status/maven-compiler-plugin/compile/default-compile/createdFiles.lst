@@ -1,0 +1,10 @@
+com\sanosysalvos\adoption\dto\AdoptionDtos.class
+com\sanosysalvos\adoption\model\Adoption$AdoptionStatus.class
+com\sanosysalvos\adoption\dto\AdoptionDtos$AdoptionRequest.class
+com\sanosysalvos\adoption\repository\AdoptionRepository.class
+com\sanosysalvos\adoption\controller\AdoptionController.class
+com\sanosysalvos\adoption\model\Adoption.class
+com\sanosysalvos\adoption\AdoptionServiceApplication.class
+com\sanosysalvos\adoption\dto\AdoptionDtos$AdoptionResponse.class
+com\sanosysalvos\adoption\dto\AdoptionDtos$ReviewRequest.class
+com\sanosysalvos\adoption\service\AdoptionService.class

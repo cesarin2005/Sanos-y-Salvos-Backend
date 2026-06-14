@@ -1,0 +1,11 @@
+com\sanosysalvos\matching\MatchingServiceApplication.class
+com\sanosysalvos\matching\model\Match.class
+com\sanosysalvos\matching\service\MatchingService.class
+com\sanosysalvos\matching\client\PetHttpClient.class
+com\sanosysalvos\matching\dto\PetDtos$LostPetDto.class
+com\sanosysalvos\matching\controller\MatchController.class
+com\sanosysalvos\matching\dto\PetDtos.class
+com\sanosysalvos\matching\repository\MatchRepository.class
+com\sanosysalvos\matching\config\AppConfig.class
+com\sanosysalvos\matching\model\Match$Status.class
+com\sanosysalvos\matching\dto\PetDtos$FoundPetDto.class
